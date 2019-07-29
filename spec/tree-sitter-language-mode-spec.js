@@ -2404,7 +2404,6 @@ function expectTokensToEqual(editor, expectedTokenLines) {
     }
 
     for (let row = startRow; row <= lastRow; row++) {
-      console.log('Row', row);
       const tokenLine = tokenLines[row];
       const expectedTokenLine = expectedTokenLines[row];
 
